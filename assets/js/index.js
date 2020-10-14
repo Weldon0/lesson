@@ -75,3 +75,6 @@ function renderAvatar(user) {
     $('.text-avatar').html(first).show();
   }
 }
+
+$('div').data('key', 'value');
+$('div').data('test');
