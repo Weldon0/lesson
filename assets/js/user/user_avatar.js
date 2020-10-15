@@ -23,7 +23,6 @@ $(function () {
   $('#file').on('change', function (e) {
     // 获取用户选择的文件
     var filelist = e.target.files;
-    console.log(filelist);
 
     if (filelist.length === 0) {
       return layer.msg('请选择照片！');
